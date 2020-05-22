@@ -1,0 +1,60 @@
+body{
+    background-color: #ffffff;
+}
+h1 {margin: 0px !important;padding: 0px !important;}
+p {margin: 0px !important;padding: 0px !important; }
+
+.menu{
+    max-width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    }
+    
+    .container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+   
+
+    @font-face {
+        font-family: "CaviarDreams";
+        src: url("../font/CaviarDreams.ttf");
+      }
+      
+     .titulo {
+        font-family: "CaviarDreams";
+        font-size: 28px;
+        color: #333333;
+        margin-top: 5px;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+  
+        .center {
+            display: block !important;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            max-height: 40px;
+            background-color: #ffffff !important;
+          }
+          .render{
+            max-width: 100%;
+            display: block;
+            margin: 0px !important;
+            padding: 0px !important;
+           
+          }
+          .center-ios {
+            display: block !important;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            max-height: 40px;
+            background-color: #ffffff !important;
+          }
+        
+      }
+    
